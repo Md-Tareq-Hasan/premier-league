@@ -1,0 +1,18 @@
+.team-container img{
+width:200px;
+margin-left: 40px;
+margin-top: 10px;
+}
+.team-detail{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 30px;
+    justify-content:center;
+    
+    }
+    .text{
+        text-align:center;
+        padding-top: 100px;
+        color: rgb(248, 51, 51);
+    }

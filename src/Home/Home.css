@@ -1,0 +1,24 @@
+.background{
+    background-color: rgb(142, 142, 202);
+}
+.header{
+    background: url("../Photo/Rectangle\ 21\ \(1\).png");
+    background-repeat: no-repeat;
+    width:100%;
+    height:300px;
+}
+.team-container{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 30px;
+    justify-content:center;
+    
+    }
+@media (max-width: 600px) {
+    .team-container{
+      display:grid;
+      grid-template-columns: repeat(1,1fr);
+      justify-content: center;
+    }
+  }
